@@ -9,6 +9,7 @@ import Happy from '../../assets/img/Happy.png'
 import GlassesEMOJI from '../../assets/img/glassesEMOJI.png'
 import { motion } from "framer-motion"
 import FloatingDiv from './FloatingDiv/FloatingDiv'
+// import GitHub from '@iconscout/react-unicons/icons/uil-github'
 
 const Intro = () => {
     const transition = {duration : 2, type: 'spring'}
@@ -21,20 +22,22 @@ const Intro = () => {
                 <span>Engineer with high level of experiences in IT, Telecom and Web Development, producting the Quality work</span>
             </div>
             <button className='button intro-button'>Hire Me</button>
-            {/* <div className="intro-icons">
-                <a href="https://github.com/YoonMeMe-engr" target='_blank'>
-                    <i style={{color: 'orange'}} class="fa-brands fa-github"></i>
+            <div className="intro-icons">
+                {/* <a href="https://github.com/YoonMeMe-engr" target='_blank'>
+                    <FontAwesomeIcon icon={GitHub} />
                 </a>
                 <a href="https://www.facebook.com/YoonMeMe.Engr" target='_blank'>
-                    <i style={{color: 'orange'}} class="fa-brands fa-square-facebook"></i>
+                    <FontAwesomeIcon icon={Facebook} />
                 </a>
                 <a href="https://www.linkedin.com/in/yoon-me-me-b6b58824a/" target='_blank'>
-                    <i style={{color: 'orange'}} class="fa-brands fa-linkedin"></i>
+                    <FontAwesomeIcon icon={LinkedIn} />
                 </a>
                 <a href="https://www.youtube.com/@Engr.YoonMeMe" target='_blank'>
-                    <i style={{color: 'orange'}} class="fa-brands fa-youtube"></i>
-                </a>
-            </div> */}
+                    <FontAwesomeIcon icon={YouTube} />
+                </a> */}
+
+               
+            </div>
         </div>
         <div className="intro-right">
             <img src={Vector1} alt="" />

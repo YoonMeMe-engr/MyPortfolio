@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Wave from '../../assets/img/wave.png'
+import Wave from '../../assets/img/Wave.png'
 import YouTube from '../../assets/img/YouTubeF.png'
 import Facebook from '../../assets/img/FacebookF.png'
 import LinkedIn from '../../assets/img/LinkedInF.png'

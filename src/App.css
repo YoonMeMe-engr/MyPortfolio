@@ -10,6 +10,13 @@
   --smBoxShadow: -79px 51px 60px rgba(0,0,0,0.08);
 }
 
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 .App {
   padding: 0.5rem 3.5rem;
   overflow: hidden;
