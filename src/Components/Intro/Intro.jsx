@@ -1,4 +1,3 @@
-
 import React from 'react'
 import './Intro.css'
 import Vector1 from '../../assets/img/Vector1.png'
@@ -8,8 +7,8 @@ import ThumbUp from '../../assets/img/thumbUp.png'
 import Crown from '../../assets/img/crown.png'
 import Happy from '../../assets/img/Happy.png'
 import GlassesEMOJI from '../../assets/img/glassesEMOJI.png'
-import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import { motion } from "framer-motion"
+import FloatingDiv from './FloatingDiv/FloatingDiv'
 
 const Intro = () => {
     const transition = {duration : 2, type: 'spring'}
@@ -22,7 +21,7 @@ const Intro = () => {
                 <span>Engineer with high level of experiences in IT, Telecom and Web Development, producting the Quality work</span>
             </div>
             <button className='button intro-button'>Hire Me</button>
-            <div className="intro-icons">
+            {/* <div className="intro-icons">
                 <a href="https://github.com/YoonMeMe-engr" target='_blank'>
                     <i style={{color: 'orange'}} class="fa-brands fa-github"></i>
                 </a>
@@ -35,7 +34,7 @@ const Intro = () => {
                 <a href="https://www.youtube.com/@Engr.YoonMeMe" target='_blank'>
                     <i style={{color: 'orange'}} class="fa-brands fa-youtube"></i>
                 </a>
-            </div>
+            </div> */}
         </div>
         <div className="intro-right">
             <img src={Vector1} alt="" />

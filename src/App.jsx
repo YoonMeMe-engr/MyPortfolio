@@ -1,14 +1,14 @@
 import React, { useContext, useState } from 'react'
-import Navbar from './Components Navbar/Navbar'
 import './App.css'
-import Intro from './Components Navbar/Intro/Intro'
-import Services from './Components Navbar/Services/Services'
-import Experiences from './Components Navbar/Experiences/Experiences'
-import Works from './Components Navbar/Works/Works'
-import Portfolio from './Components Navbar/Portfolio/Portfolio'
-import Testimonial from './Components Navbar/Testimonial/Testimonial'
-import Contact from './Components Navbar/Contact/Contact'
-import Footer from './Components Navbar/Footer/Footer'
+import Navbar from './Components/Navbar/Navbar'
+import Intro from './Components/Intro/Intro'
+import Services from './Components/Services/Services'
+import Experiences from './Components/Experiences/Experiences'
+import Works from './Components/Works/Works'
+import Portfolio from './Components/Portfolio/Portfolio'
+import Testimonial from './Components/Testimonial/Testimonial'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
