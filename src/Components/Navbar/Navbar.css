@@ -40,14 +40,14 @@
     flex: 10;
 }
 
-.nav-list>ul {
+ul {
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
     cursor: pointer;
 }
 
-.nav-list>ul :hover {
+ul :hover {
     cursor: pointer;
     color: var(--orange) !important;
 }
@@ -58,8 +58,8 @@
     flex: 1;
 }
 
-.open-menu {
-    display: none;
+.icon {
+    visibility: hidden !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -72,19 +72,14 @@
         font-weight: bold;
     }
 
-    .open-menu {
+    .icon{
         display: block;
         border: none;
         background: none;
-        
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 900px) {
-    .nav-list{
-        display: none;
-    }
-
     .nav-name {
         font-size: 2rem;
         font-weight: bold;
@@ -97,5 +92,26 @@
     .nav-right {
         display: flex;
         justify-content: end;
+        align-items: center;
+    }
+
+    .icon{
+        visibility: visible !important;
+        font-size: 3rem;
+        display: flex;
+        margin-left: 1.5rem;
+    }
+
+    .nav-list>ul {
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        position: absolute;
+        height: 40vh;
+        width: 350px;
+        top: 90px;
+        -right: 0;
+        z-index: 2;
+        font-size: 2rem;
     }
 }

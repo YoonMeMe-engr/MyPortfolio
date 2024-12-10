@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-scroll'
+import { HiBars3BottomRight } from "react-icons/hi2";
+
 
 const Navbar = () => {
-
+    const [isOpen, setIsOpen] = useState(false);
+    const OpenMenu = () => {
+        setIsOpen(!isOpen);
+    }
   return (
     <div className='navbar' id='Navbar'>
         <div className="nav-left">
@@ -36,9 +41,9 @@ const Navbar = () => {
                         Contact Me
                 </button>
             </Link>
-            {/* <button className='open-menu'>
-                <FontAwesomeIcon icon={faBars} />
-            </button> */}
+            <div className="icon" onClick={OpenMenu}>
+                <HiBars3BottomRight />
+            </div>
         </div>
     </div>
   )

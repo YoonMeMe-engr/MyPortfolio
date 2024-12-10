@@ -5,6 +5,7 @@ import YouTube from '../../assets/img/YouTubeF.png'
 import Facebook from '../../assets/img/FacebookF.png'
 import LinkedIn from '../../assets/img/LinkedInF.png'
 import GitHub from '../../assets/img/GitHubF.png'
+import { FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
   const top = () => {
@@ -32,7 +33,7 @@ const Footer = () => {
                 </div>
             </div>
             <button onClick={top} className='back-to-top'>
-              <i class="fa-solid fa-arrow-up"></i>
+              <FaArrowUp />
             </button>
         </div>
     </div>
